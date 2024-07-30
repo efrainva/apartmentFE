@@ -1,0 +1,26 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+HR+Lijeva:wght@100..400&display=swap');
+
+html {
+  width: 100%;
+  height: 100%;
+
+  background: #f0dcca;
+  box-shadow: inset 14px 14px 27px #d3c2b2,
+              inset -14px -14px 27px #fff6e2;
+  padding: 30px;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.playwrite{
+  /* margin: auto; */
+  font-family: "Playwrite HR Lijeva", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 100px;
+  font-style: normal;
+}
+

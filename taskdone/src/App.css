@@ -1,0 +1,100 @@
+/* section{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+} */
+.app{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: auto;
+  display: flex;
+  height: 100%;
+  /* justify-content: center; */
+  /* flex-direction: column; */
+  /* flex-wrap: wrap; */
+  /* align-items: center; */
+}
+.welcome{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 0px auto;
+  color: #33658a;
+}
+.loginCard{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-radius: 20px;
+  margin: 50px auto;
+  height: 30vh;
+  width: 30vh;
+  background: #f0dcca;
+  box-shadow:  5px 5px 10px #e2cfbe,
+              -5px -5px 10px #fee9d6;
+  align-items: center;
+}
+
+.loginButton{
+  margin: 0 auto;
+  border: 2px solid #7bb78d;
+  /* background-color: #cd533b; */
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+  background: linear-gradient(145deg, #689a77, #7bb78d);
+  box-shadow:  6px 6px 13px #ccbbac,
+             -6px -6px 13px #fffde8;
+}
+
+.loginButton:hover{
+  background: #f0dcca;
+}
+
+
+@keyframes outcard {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+@keyframes incard {
+  from {background-color: yellow;}
+  to {background-color: red;}
+}
+
+.main:hover{
+  animation: incard 10s;
+  
+}
+
+input{
+  /* margin: 0px 125px ; */
+  width: 250px;
+  border-radius: 5px;
+  border:0px;
+  height: 40px;
+  padding: 5px;
+  background: #ffffff;
+  box-shadow: inset 4px 4px 7px #bebebe,
+            inset -4px -4px 7px #ffffff;
+  outline: none;
+
+}
+@keyframes popoutInput {
+  0%{
+    box-shadow:  0px 0px 0px #606060,
+  0px 0px 0px #ffffff,
+  inset 4px 4px 7px #bebebe,
+  inset -4px -4px 7px #ffffff;
+  /* background: #e0e0e0; */
+
+
+  }
+  100%{box-shadow:  5px 5px 8px #606060,
+    -5px -5px 8px #ffffff,
+    inset 0px 0px 0px #bebebe,
+                inset 0px 0px 0px #ffffff;
+
+  }
+}
