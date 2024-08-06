@@ -13,10 +13,10 @@ const TenentCard = () => {
         <h2 className="numberhTwo">number</h2>
 
         <section className="bottomPart">
-            <p>paid/status</p>
-            <button className="tenentCardButtton" onClick={()=>{look("1")} }>message</button>
-            <button className="tenentCardButtton" onClick={()=>{look("2")} }>paperwork</button>
-            <button className="tenentCardButtton" onClick={()=>{look("3")} }>maitenance</button>
+            <div className="paidStatus">paid/status</div>
+            <button className="messageButtton" onClick={()=>{look("1")} }>message</button>
+            <button className="paperButton" onClick={()=>{look("2")} }>paperwork</button>
+            <button className="maitenanceButton" onClick={()=>{look("3")} }>maitenance</button>
         </section>
         
     </section>)

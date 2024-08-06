@@ -39,6 +39,34 @@
   margin: 0;
 }
 
+.paperButton:hover{
+  background-color: #33658A;
+}
+.messageButtton:hover{
+  border: none;
+  background-color: #33658A;
+}
+.maitenanceButton{
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.maitenanceButton:hover{
+  background-color: #33658A;
+}
+
+.paidStatus{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #f1f1f1;
+  /* background-color: #4C9F70; */
+  /* border-top-left-radius: 20px;
+  border-top-right-radius: 20px; */
+  width: 150px;
+  height: 40px;
+}
+.paidStatus:hover{background-color: #33658A;}
 .bottomPart{
   display: flex;
   flex-direction: column;

@@ -4,7 +4,7 @@ const Tenent =()=>{
     return(
         <section className='admin'>
             <h2 className='playwrite welcome'>welcome [name]</h2>
-            <section>
+            <section className=''>
 
             
             
